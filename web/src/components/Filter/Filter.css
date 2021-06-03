@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+@font-face {
+    font-family: 'Rubik', sans-serif;
+    src: local('Rubik'), url("../../font/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+
+.filterContainer{
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    width: 265px;
+    height: 50px;
+    z-index: 101;
+}
+
+.inputText{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 200px;
+    height: 30px;
+    color: #ffffff;
+    background-color: rgba(41, 208, 253, 0.25);
+    border-radius: 5px;
+    border: 2px solid rgba(102, 51, 153, 0.5);
+    outline: 0px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.inputText:focus{
+    opacity: 0.9;
+}
+
+::placeholder{
+    color: #ffffff;
+}
+
+.filterButton{
+    position: absolute;
+    top: 15px;
+    left: 225px;
+    width: 60px;
+    height: 30px;
+    color: #ffffff;
+    background: rgba(41, 208, 253, 0.25);
+    border: 2px solid rgba(102, 51, 153, 0.5);
+    font-size: 13px;
+    outline: 0px;
+    border-radius: 5px;
+}
+
+.filterButton:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.filterButton:active {
+    font-size: 12px;
+}
